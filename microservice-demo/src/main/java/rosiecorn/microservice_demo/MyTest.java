@@ -55,8 +55,8 @@ public ResponseDetails handleRequest(RequestDetails requestDetails, Context arg1
 	private Connection getConnection() throws SQLException {
 		// TODO Auto-generated method stub
 				String url = "jdbc:mysql://awsmysql.cmc1kiud8sar.us-east-2.rds.amazonaws.com:3306";
-				String username = "adminuser";
-				String password = "gauMAP789";
+				String username = "**";
+				String password = "**";
 				Connection conn = DriverManager.getConnection(url, username, password);
 				return conn;
 	}
